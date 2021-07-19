@@ -34,8 +34,7 @@ public class RegistrationTests {
         $("#hobbiesWrapper").$(byText("Reading")).click();
         $("#uploadPicture").uploadFromClasspath("./img/1.jpg");
         $("#currentAddress").val("Москва, Южнопортовый проезд, д. 5, к. 2А");
-        $("#state").scrollIntoView(true);
-        $("#state").click();
+        $("#state").scrollIntoView(true).click();
         $("#stateCity-wrapper").$(byText("Haryana")).click();
         $("#city").click();
         $("#stateCity-wrapper").$(byText("Panipat")).click();
